@@ -1,0 +1,19 @@
+CREATE TABLE szemelyek (
+    ID INT PRIMARY KEY,
+    Vezeteknev TEXT NOT NULL,
+    Keresztnev TEXT NOT NULL,
+    Szuletes_helye TEXT,
+    Szuletes_idopontja DATE NOT NULL,
+    Apja_neve TEXT,
+    Anyja_neve TEXT,
+    Foglalkozas TEXT,
+    Nem TEXT NOT NULL,
+    Hazastars_neve TEXT,
+    Hazassagkotes_helye TEXT,
+    Hazassagkotes_idopontja DATE,
+    Halal_helye TEXT,
+    Halal_idopontja DATE,
+    Halal_oka TEXT
+);
+
+CREATE TABLE
