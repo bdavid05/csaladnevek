@@ -1,0 +1,19 @@
+INSERT INTO Személyek (
+  keresztnev,
+  vezeteknev,
+  szuletesi_hely,
+  szuletesi_ido,
+  apa_keresztnev,
+  apa_vezeteknev,
+  anya_keresztnev,
+  anya_vezeteknev,
+  foglalkozas,
+  nem,
+  hazastars_keresztnev,
+  hazastars_vezeteknev,
+  hazassagkotes_helye,
+  hazassagkotes_ideje,
+  halal_helye,
+  halal_ido,
+  halal_oka
+)
