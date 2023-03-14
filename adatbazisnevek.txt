@@ -1,7 +1,46 @@
-Születés helye, ideje	Apja neve	Anyja neve	Foglalkozása	Neme	Házastársa neve	Házasságkötés helye, ideje	Elhalálozás helye, ideje, ok
-Kovács József	Budapest, 1900. január 1.				F	Kovács Mária	Budapest, 1925. február 14.	Szeged, 1970, szívroham
-Kovács Mária	Budapest, 1902. december 5.			háztartásbeli	N	Kovács József	Budapest, 1925. február 14.	Szeged, 1985, agyvérzés
-Kovács László	Budapest, 1926. június 20.	Kovács József	Kovács Mária	mérnök	F	Kovács Erzsébet	Budapest, 1950. augusztus 12.	Budapest, 2000, rák
-Kovács Erzsébet	Debrecen, 1930. március 8.	Kádár János	Takács Anna	tanító	N	Kovács László	Budapest, 1950. augusztus 12.	Budapest, 2005, szívinfarktus
-Kovács Gábor	Budapest, 1951. július 10.	Kovács László	Kovács Erzsébet	orvos	F	Kovács Mónika	Budapest, 1975. szeptember 5.	-
-Kovács Mónika	Budapest, 1953. március 12.	Szigeti Sándor	Kovács Judit	vegyész	N	Kovács Gábor	Budapest, 1975. szeptember 5.	-
+Neve			Születés helye, ideje		Apja neve	Anyja neve	Foglalkozása	Neme	Házastársa neve		Házasságkötés helye, ideje	Elhalálozás helye, ok
+Kovács József		Budapest, 1900. január 1.	Kovács Pali	Vinars Réka	mérnök		F	Kovács Mária		Budapest, 1925. február 14.	Szeged, 1970. május 10., szívroham
+Kovács Mária		Budapest, 1902. december 5.	Pál Edvin	Szabó Anett	kovács		N	Kovács József		Budapest, 1925. március 14.	Szeged, 1985. november 12., agyvérzés
+Kovács László		Budapest, 1926. június 20.	Kovács József	Kovács Mária	mérnök		F	Kovács Erzsébet		Budapest, 1950. augusztus 12.	Budapest, 2000. január 24., rák
+Kovács Erzsébet		Debrecen, 1930. március 8.	Kádár János	Takács Anna	tanító		N	Kovács László		Budapest, 1950. januér 12.	Budapest, 2005. augusztus 4., szívinfarktus
+Kovács Gábor		Budapest, 1951. július 10.	Kovács László	Kovács Erzsi	orvos		F	Kovács Mónika		Budapest, 1975. szeptember 5.	-
+Kovács Mónika		Budapest, 1953. március 12.	Szigeti Sándor	Kovács Judit	vegyész		N	Kovács Gábor		Budapest, 1975. október 5.	-
+
+
+INSERT INTO Személyek (
+  keresztnev,
+  vezeteknev,
+  szuletesi_hely,
+  szuletesi_ido,
+  apa_keresztnev,
+  apa_vezeteknev,
+  anya_keresztnev,
+  anya_vezeteknev,
+  foglalkozas,
+  nem,
+  hazastars_keresztnev,
+  hazastars_vezeteknev,
+  hazassagkotes_helye,
+  hazassagkotes_ideje,
+  halal_helye,
+  halal_ido,
+  halal_oka
+) VALUES (
+  'János',
+  'Kovács',
+  'Budapest',
+  '1980.01.01',
+  'Gábor',
+  'Kovács',
+  'Mária',
+  'Kovács',
+  'mérnök',
+  'férfi',
+  'Mária',
+  'Nagy',
+  'Debrecen',
+  '2005.06.01',
+  'Pécs',
+  '2022.02.14',
+  'szívbetegség'
+);
